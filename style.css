@@ -1,0 +1,1048 @@
+html {
+scroll-behavior: smooth;
+  }
+
+body {
+/*  overflow-x: hidden;*/
+  margin: 0;
+}
+
+
+
+li {
+  display: inline;
+}
+li {
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 1.0);
+}
+
+#navbar {
+  position: fixed;
+  z-index: 50;
+/*  margin: 0;*/
+  font-family: Arial Rounded MT;
+  top: 4%;
+  overflow: visible;
+/*  padding-top: 20px;*/
+/*  margin-top: 20px;*/
+}
+
+#navbar li{
+  z-index: 100000000000000000000000000000;
+/*  margin-top: 3.5%;*/
+  padding-top: 3.5%;
+  padding-right: 3%;
+
+}
+
+
+#navbar li a {
+  z-index: 50;
+  background-color: rgba(0,0,0, 0.0);
+  margin-right: 0%;
+  font-size: 100%;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding-right: 20%;
+  text-decoration: underline;
+  text-decoration-color:#FFA2FB;
+}
+
+#navbar a:hover {
+  z-index: 50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.content {
+/*  padding: 16px;*/
+}
+
+
+.sticky {
+  background-color: rgba(0,0,0, 0.0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+/*  vertical-align: bottom;*/
+}
+
+
+.sticky + .content {
+/*  padding-top: 60px;*/
+margin-top: 0;
+}
+
+ul {
+  padding: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+  #Untitled-3 {
+    opacity: 0.5;
+    position: absolute;
+    width: 250%;
+    height: auto;
+    padding-left: 40%;
+/*    float: right;*/
+    display: block;
+    top: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height: 1000px;
+    max-width: 1000px;
+/*    left: 100%;*/
+  }
+
+#navbarlogo {
+  width: 20%;
+  height: auto; 
+  max-height: 140px;
+  max-width: 140px;
+
+}
+
+#backimage {
+  width: 100%;
+  height: auto;
+  display: inline;
+}
+
+/*.button {
+  margin-top: 5%;
+  top: 7%;
+  white-space: normal;
+  display: table-cell;
+  align-items: center;
+  vertical-align:middle;
+
+}
+*/
+
+#buy{
+  padding-top: 60%;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+.container {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  color: #ffb7ff;
+  font-family: future earth;
+  font-size: 50px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-49%, -50%);
+  letter-spacing: 3px;
+}
+
+#buynitro {
+  height: auto;
+  width: 70%;
+  color: #262626;
+  font-family: future earth;
+  font-size: 30px;
+  position: absolute;
+  top: 47.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 50px;
+  text-decoration: none;
+  max-width: 364px;
+  max-height: 93px;
+}
+
+#discordlogo {
+  z-index: 1;
+  margin: 0;
+  background-color: #ffd0fe;
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#discordlogo img {
+  width: 58px;
+  height: 58px;
+}
+
+.purchase {
+  color: #ffffff;
+  font-family: future earth;
+  font-size: 24px;
+  position: static;
+/*  top: 30%;*/
+/*  left: 50%;*/
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 3px;
+  z-index: 2;
+}
+
+#purchase1 {
+  position: static;
+  background-color: #f56dff;
+/*  width: 80%;*/
+width: 75%;
+  height: auto;
+  border-radius: 40px;
+  border-color: transparent;
+  margin-top: 7%;
+  z-index: 3;
+  max-width: 400px;
+}
+
+
+#purchase2 {
+   position: static;
+  background-color: #f56dff;
+/*  width: 80%;*/
+width: 75%;
+  height: auto;
+  border-radius: 40px;
+  margin-top: 7%;
+  border-color: transparent;
+  z-index: 3;
+  max-width: 400px;
+}
+
+#purchase3 {
+   position: static;
+  background-color: #f56dff;
+  width: 75%;
+  height: auto;
+  border-radius: 40px;
+  border-color: transparent;
+  margin-top: 7%;
+  z-index: 3;
+  text-align: center;
+  text-decoration: none;
+  max-width: 400px;
+}
+
+#yearboost {
+    position: relative;
+  width: 85%;
+  height: auto;
+  max-width: 600px;
+
+}
+
+#yearnitro {
+  position: relative;
+  width: 85%;
+  height: auto;
+  max-width: 600px;
+  margin-top: 30%;
+
+}  
+
+#monthnitro {
+    position: relative;
+  width: 85%;
+  height: auto;
+  max-width: 600px;
+  margin-top: 37%;
+
+} 
+
+#buydivpic { 
+/*    opacity: 0.5;*/
+/*    position: relative;*/
+    width: 250%;
+    height: auto;
+/*    padding-left: 40%;*/
+/*    float: right;*/
+    display: block;
+/*    top: 50px;*/
+/*    overflow-x: hidden;*/
+    overflow-y: hidden;
+/*    max-height: 1000px;
+    max-width: 1000px;*/
+/*    left: 100%;*/
+z-index: -1;
+
+} 
+
+#trustpilotdiv {
+  margin-top: 50%;
+}
+
+
+#faq{
+  margin-top: 20%;
+  height: 1px;
+}
+
+.faq{
+  margin-top: 30%;
+}
+
+#faqh1 {
+  font-size: 40px;
+  color: #ffb7ff;
+  font-family: future earth;
+}
+
+
+
+.accordion {
+  font-size: 24px;
+  margin-top: 2%;
+  border-radius: 40px;
+  font-family: future earth;
+  background-color: #ff75ff;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 75%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
+.active, .accordion:hover {
+  background-color: #cc5dcc;
+}
+
+
+.panel {
+  font-weight: 100;
+  font-size: 24px;
+  width: 75%;
+  border-radius: 40px;
+   font-family: future earth;
+  padding: 0 0px;
+  background-color: #ffe3ff;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+#tphr {
+  background-color: #ff85fb;
+  height:5px;
+  border-width:0;
+  color:gray;
+  width: 90%;
+  border-radius: 40px;
+}
+
+#support{
+  font-family: arial;
+  color: #ff85fb;
+  margin-bottom: 0%;
+  background: transparent;
+  text-decoration: none;
+}
+
+#copyright{
+  font-size: 12px;
+  font-family: arial;
+  color: #ff85fb;
+  margin-bottom: 5%;
+  background: transparent;
+  text-decoration: none;
+}
+#discordlogofooter{
+  display: none;
+}
+
+#footer {
+  height: 140px;
+}
+#supportdiv {
+  margin-top: 5%;
+  text-align: center;
+}
+
+#footerlogo{
+  display: none;
+}
+
+#footerimgcontainer {
+  display: none;
+}
+
+/*@media screen and (min-width: 1280){
+    #navbar {
+    font-size: 24px;
+    font-weight: bold;
+  }
+    #Untitled-3 {
+    position: relative;
+    align-content: right;
+    padding-left: 0%;
+    float: right;
+    left: 20%;
+    display: block;
+    top: 50px;
+    /*overflow-x: hidden;
+    max-height: 1000px;
+    max-width: 1000px;
+    float: right;
+  }
+#navbar li{
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+.accordion {
+  font-size: 20px;
+}
+
+#footer {
+  height: 160px;
+}
+
+
+#navbarlogo {
+  max-width: 100px;
+}
+  #navbar li {
+    margin-top: 0;
+    padding-top: 1%;
+  }
+  #navbar li a {
+    margin: 0;
+    padding-top: 0;
+  }
+
+}*/
+  
+#cheapnitrospan{
+  display: none;
+}
+#buydivpic{
+  /*right: 0;*/
+  left: -100%;
+/*  width: 100%*/;
+  position: absolute;
+  /*margin-bottom: 30%;*/
+/*  padding-bottom: 30%;*/
+
+}
+
+@media screen and (min-width: 901px) {
+  #navbar {
+    font-size: 24px;
+    font-weight: bold;
+  }
+    #Untitled-3 {
+    position: relative;
+/*    align-content: right*/;
+/*    padding-left: 0%;*/
+/*    float: right;*/
+    left: 10%;
+    display: block;
+    top: 50px;
+    /*overflow-x: hidden;*/
+/*    max-height: 1000px;
+    max-width: 1000px;
+    float: right;*/
+  }
+#navbar li{
+  margin-top: 0;
+  padding-top: 25px;
+
+}
+
+.accordion {
+  font-size: 20px;
+}
+
+#footer {
+  height: 160px;
+}
+
+
+#navbarlogo {
+  max-width: 100px;
+}
+
+.centered{
+  left: 30%;
+  font-size: 75px;
+  top: 30%;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+#buynitro{
+  left: 25%;
+  top: 50%;
+  height: 75px;
+  padding-top: 20px;
+}
+
+#discordlogo {
+  left: 27%;
+/*  left: 0;*/
+  top: 50%;
+  margin-left: 220px;
+/*  margin-left: 700px;*/
+/*  position: relative;*/
+}
+
+
+
+#discordlogofootercontainer {
+  display: inline;
+  position: relative;
+  margin: 0;
+  width: 75px;
+  height: auto;
+}
+
+
+
+#discordlogofooter{
+  display: inline;
+  z-index: 3;
+  margin: 0;
+  background-color: #ff85fb;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+/*  transform: translate(-50%, -50%);*/
+  margin-left: 85%;
+/*  margin-top: 7.5%;*/
+  margin-top: 8px;
+}
+
+
+#footerlogo{
+  display: inline;
+  position: relative;
+  margin: 0;
+  width: 100px;
+  height: auto;
+
+}
+
+#footerimgcontainer {
+  display: block;
+  position: absolute;
+  background: transparent;
+  margin: 0;
+}
+
+
+
+}
+
+@media screen and (min-width: 1281px){
+    #navbar {
+    font-size: 24px;
+    font-weight: bold;
+  }
+    #Untitled-3 {
+    position: relative;
+/*    align-content: right*/;
+/*    padding-left: 0%;*/
+/*    float: right;*/
+    left: 20%;
+    display: block;
+    top: 50px;
+    /*overflow-x: hidden;*/
+/*    max-height: 1000px;
+    max-width: 1000px;
+    float: right;*/
+  }
+#navbar li{
+  margin-top: 0;
+  padding-top: 25px;
+
+}
+
+.accordion {
+  font-size: 20px;
+}
+
+#footer {
+  height: 160px;
+}
+
+
+#navbarlogo {
+  max-width: 100px;
+}
+
+.centered{
+  left: 26%;
+  font-size: 90px;
+  top: 26%;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+#buynitro{
+  left: 24%;
+  top: 65%;
+  height: 100px;
+  padding-top: 25px;
+}
+
+
+#discordlogo {
+  left: 26%;
+/*  left: 0;*/
+  top: 65%;
+  margin-left: 200px;
+}
+
+
+
+#discordlogofootercontainer {
+  display: inline;
+  position: relative;
+  margin: 0;
+  width: 75px;
+  height: auto;
+}
+
+
+
+#discordlogofooter{
+  display: inline;
+  z-index: 3;
+  margin: 0;
+  background-color: #ff85fb;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+/*  transform: translate(-50%, -50%);*/
+  margin-left: 85%;
+/*  margin-top: 7.5%;*/
+  margin-top: 8px;
+}
+
+
+#footerlogo{
+  display: inline;
+  position: relative;
+  margin: 0;
+  width: 100px;
+  height: auto;
+
+}
+
+#footerimgcontainer {
+  display: block;
+  position: absolute;
+  background: transparent;
+  margin: 0;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 1920px){
+    #navbar {
+    font-size: 24px;
+    font-weight: bold;
+  }
+    #Untitled-3 {
+    position: relative;
+/*    align-content: right*/;
+/*    padding-left: 0%;*/
+/*    float: right;*/
+    left: 20%;
+    display: block;
+    top: 50px;
+    /*overflow-x: hidden;*/
+/*    max-height: 1000px;
+    max-width: 1000px;
+    float: right;*/
+  }
+#navbar li{
+  margin-top: 0;
+  padding-top: 25px;
+
+}
+
+.accordion {
+  font-size: 20px;
+}
+
+#footer {
+  height: 160px;
+}
+
+
+#navbarlogo {
+  max-width: 100px;
+}
+
+.centered{
+  left: 26%;
+  font-size: 90px;
+  top: 26%;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+#buynitro{
+  left: 24%;
+  top: 65%;
+  height: 100px;
+  padding-top: 25px;
+}
+
+
+#discordlogo {
+  left: 26%;
+/*  left: 0;*/
+  top: 65%;
+/*  margin-left: 700px;*/
+}
+
+
+
+
+#discordlogofootercontainer {
+  display: inline;
+  position: relative;
+  margin: 0;
+  width: 75px;
+  height: auto;
+}
+
+
+
+#discordlogofooter{
+  display: inline;
+  z-index: 3;
+  margin: 0;
+  background-color: #ff85fb;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+/*  transform: translate(-50%, -50%);*/
+  margin-left: 90%;
+/*  margin-top: 7.5%;*/
+  margin-top: 8px;
+}
+
+
+#footerlogo{
+  display: inline;
+  position: relative;
+  margin: 0;
+  width: 100px;
+  height: auto;
+
+
+}
+
+#footerimgcontainer {
+  display: block;
+  position: absolute;
+  background: transparent;
+  margin: 0;
+    margin-left: 5%;
+}
+
+.accordion {
+  height: 88px;
+  width: 64%;
+}
+
+.panel {
+  width: 64%;
+}
+
+
+#cheapnitrospan{
+  display: block;
+  font-size: 15px;
+  font-family: future earth;
+  left: 15%;
+  top: 71%;
+  color: rgba(255,183,255,1);
+}
+
+#buydivpic{
+  top: 10%;
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  width: 10%;
+}
+
+#buy{
+  padding-top: 10%;
+}
+
+#yearboost{
+  margin-top: 0;
+/*  margin-left: 20%;*/
+}
+
+#yearnitro{
+  margin-top: 0;
+}
+
+#monthnitro{
+  margin-top: 10%;
+}
+
+/*#center1{
+  display: flex;
+}
+
+#center2{
+  display: flex;
+}*/
+
+#flexdiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#center1{
+  padding-left: 10%;
+}
+
+#center2 {
+  /*padding-left: 10%;*/
+}
+
+
+
+#purchase1{
+  height: 100px;
+    margin-top: 10%;
+}
+#purchase2{
+  height: 100px;
+      margin-top: 10%;
+}
+#purchase3{
+  height: 100px;
+        margin-top: 4%;
+}
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+  #navbar {
+    font-size: 24px;
+    font-weight: bold;
+  }
+    #Untitled-3 {
+    position: relative;
+    align-content: right;
+/*    padding-left: 0%;*/
+/*    float: right;*/
+    display: block;
+    top: 50px;
+    overflow-x: hidden;
+    max-height: 1000px;
+    max-width: 1000px;
+/*    left: 100%;*/
+    right: 30%;
+  }
+  #discordlogo {
+  top: 56%;
+  transform: translate(-50%, -50%);
+}
+.purchase {
+  font-size: 40px;
+}
+
+#navbar li{
+  margin-top: 2%;
+
+}
+#supportdiv {
+  text-align: center;
+}
+
+
+#support {
+  text-align: center;
+  font-size: 20px;
+/*padding-top: 3%;*/
+  padding: 0;
+  width: 100%;
+}
+#copyright{
+  font-family: arial;
+  color: #ff85fb;
+  margin-bottom: 5%;
+  background: transparent;
+  text-decoration: none;
+  font-size: 14px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#discordlogofootercontainer {
+  display: inline;
+  position: relative;
+  margin: 0;
+  width: 75px;
+  height: auto;
+}
+
+
+
+#discordlogofooter{
+  display: inline;
+  z-index: 3;
+  margin: 0;
+  background-color: #ff85fb;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+/*  transform: translate(-50%, -50%);*/
+  margin-left: 85%;
+/*  margin-top: 7.5%;*/
+  margin-top: 8px;
+}
+
+
+#footerlogo{
+  display: inline;
+  position: relative;
+  margin: 0;
+  width: 100px;
+  height: auto;
+
+}
+
+#footerimgcontainer {
+  display: block;
+  position: absolute;
+  background: transparent;
+  margin: 0;
+}
+
+}
+
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+   #navbar {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #Untitled-3 {
+    position: relative;
+    align-content: left;
+    padding-left: 0%;
+/*    float: right;*/
+    display: block;
+    top: 50px;
+    overflow-x: hidden;
+    max-height: 1000px;
+    max-width: 1000px;
+/*    left: 100%;*/
+    right: 14%;
+  }
+#discordlogo {
+  top: 56%;
+  transform: translate(-50%, -50%);
+}
+.purchase {
+  font-size: 32px;
+}
+#discordlogofootercontainer {
+  display: none;
+}
+
+
+
+#discordlogofooter{
+  display: none;
+}
+
+
+#footerlogo{
+  display: none;
+}
+
+#footerimgcontainer {
+  display: none;
+}
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+  #Untitled-3 {
+    position: relative;
+    align-content: left;
+/*    padding-left: 0%;*/
+/*    float: right;*/
+    display: block;
+    top: 50px;
+    overflow-x: hidden;
+    max-height: 1000px;
+    max-width: 1000px;
+/*    left: 100%;*/
+    right: 20%;
+  }
+  #discordlogo {
+  top: 57%;
+  transform: translate(-50%, -50%);
+}
+.purchase {
+  font-size: 26px;
+}
+
+
+
+}
+
